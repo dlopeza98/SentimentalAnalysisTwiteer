@@ -1,0 +1,32 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+snscrape = "*"
+pandas = "*"
+kedro = "~=0.19.2"
+ipython = ">=8.10"
+jupyterlab = ">=3.0"
+kedro-datasets = ">=1.0"
+kedro-telemetry = ">=0.3.1"
+kedro-viz = ">=6.7.0"
+notebook = "*"
+pytest = "~=7.2"
+pytest-cov = "~=3.0"
+pytest-mock = "<2.0,>=1.7.1"
+ruff = "~=0.1.8"
+playwright = "*"
+jmespath = "*"
+scrapfly-sdk = "*"
+tweepy = "*"
+tqdm = "*"
+pyarrow = "*"
+kaggle = "*"
+openai = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
